@@ -24,7 +24,6 @@ public class CSVFile {
                 line = line.trim();
                 if(line.replace("\0", "").contains("Imie")){
                     inMembersSection = true;
-                    System.out.println("we are in member section");
                     continue;
                 }
 
